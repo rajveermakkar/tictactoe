@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+}
+#heading{
+    color:black;
+    margin:50px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    font-family: ubuntu;
+}
+.game{
+    bordeR:30px solid white;
+    outline: 30px solid rgb(196, 193, 193);
+    height:450px;
+    width:450px;
+}
+.box{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border:2px solid black;
+    font-size: 50px;
+    color:red;
+}
+#reset-game{
+    margin-top:30px;
+    padding:10px;
+    color:white;
+    background-color:black;
+    font-weight:bold;
+    font-size:25px;
+}
+#reset-game:active{
+    background-color:red;
+    border:none;
+    color:white;
+}
+#msgW{
+    margin-top:50px;
+    padding: 5px 30px;
+   
+}
+#msg{
+    font-size:25px;
+    color:black;
+    font-weight: bold;
+
+}
+#row1,#row2,#row3{
+    display: flex;
+    flex-direction: row;
+}
+#b0{
+    border-top:0px;
+    border-left:0px;
+}
+#b1{
+    border-top:0px;
+}
+#b2{
+    border-top:0px;
+    border-right: 0px;;
+}
+#b3{
+    border-left:0px;
+}
+#b5{
+    border-right: 0px;
+}
+#b6{
+    border-left: 0px;
+    border-bottom: 0px;
+}
+#b7{
+    border-bottom: 0px ;
+}
+#b8{
+    border-right: 0px;
+    border-bottom: 0px;
+}
